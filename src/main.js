@@ -1,17 +1,17 @@
 /* eslint-disable no-console,no-unused-vars */
 import Vue from 'vue'
 import Vuex from 'vuex';
-// Webpack CSS import
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
+import VueOnsen from 'vue-onsenui'; // This imports 'onsenui', so no need to import it separately
+import storeLike from './store';
+import AppNavigator from './AppNavigator.vue';
 import './assets/css/overide.css';
 import './assets/css/util.css';
 import './assets/fonts/fonts.css';
 import './assets/css/grid.css';
 import './assets/css/style.css';
 import './assets/css/fonts.css';
-
-import app from './app.js';
 import resize from 'vue-resize-directive'
 import {ApiService} from './services/api.service'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
@@ -23,9 +23,7 @@ import 'swiper/dist/css/swiper.css'
 
 //ApiService.init('https://harlem-girl.now.sh/');
 
-import VueOnsen from 'vue-onsenui'; // This imports 'onsenui', so no need to import it separately
-import storeLike from './store';
-import AppNavigator from './AppNavigator.vue';
+
 
 import TextareaAutosize from 'vue-textarea-autosize'
 
@@ -171,14 +169,6 @@ new Vue({
         Vue.prototype.$isLiveApp = false;
 
         Vue.prototype.md = false;
-        Vue.prototype.app_theme = {
-            statusBar: "#3E1E68",
-            background: "black",
-            color: "white",
-            backgroundColor: "black"
-        };
-
-
 
         // Set iPhoneX flag based on URL
         if (window.location.search.match(/iphonex/i)) {
@@ -201,20 +191,6 @@ new Vue({
 
                // app.changeStatusBarColorTo("#3E1E68");
 
-
-                window.plugins.uniqueDeviceID.get(function (uuid) {
-                        // got it!
-                        console.log(uuid);
-                        Vue.prototype.$uuid = uuid;
-                        // alert(uuid);
-                    },
-                    function (err) {
-                        // something went wrong
-                        console.warn(err);
-                    })
-
-
-
             }, false);
 
 
@@ -222,12 +198,7 @@ new Vue({
         else {
             this.$ons.ready(function () {
                 console.log('not live');
-                // _self.$store.dispatch("app/init");
 
-                //  _self.$store.dispatch("app/drop","user");
-                // new db('user', {})
-                //  app.start(device);
-                //app.calculateViewPort();
 
             });
         }
