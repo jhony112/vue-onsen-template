@@ -1,0 +1,146 @@
+
+
+
+@media only screen and (min-width: 180px) {
+    body {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    body {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    body {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    body {
+        font-size: 100%;
+    }
+}
+
+
+/*@font-face {*/
+    /*font-family: 'TextFont';*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*src: url('../fonts/Muli-Regular.ttf');*/
+/*}*/
+/*@font-face {*/
+    /*font-family: 'TextFont';*/
+    /*font-style: normal;*/
+    /*font-weight: 800;*/
+    /*src: url('../fonts/Muli-Bold.ttf');*/
+/*}*/
+
+
+/*@font-face {*/
+    /*font-family: 'TextFont';*/
+    /*font-style: normal;*/
+    /*font-weight: 100;*/
+    /*src: url('../fonts/Muli-Light.ttf');*/
+/*}*/
+
+
+
+/*@font-face {*/
+    /*font-family: 'TextFont';*/
+    /*font-style: normal;*/
+    /*font-weight: 900;*/
+    /*src: url('../fonts/Muli-Black.ttf');*/
+/*}*/
+
+
+body, div, section, li, p, .page, .toolbar input {
+    font-family: proxima_nova !important;
+    /*font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', Robto, sans-serif;*/
+}
+
+.padded {
+    padding: 10px 15px !important;
+}
+
+.toolbar {
+    height: 56px !important;
+}
+
+.toolbar__right {
+    padding-right: 10px !important;
+    line-height: 56px !important;
+}
+
+.toolbar__center {
+    line-height: 56px !important;
+}
+
+.toolbar__left {
+    padding-left: 10px !important;
+    line-height: 56px !important;
+}
+
+.toolbar--material__center, .toolbar--material__left, .toolbar--material__right {
+    line-height: unset;
+}
+
+.toolbar + .page__background + .page__content {
+    top: 56px !important;
+}
+
+.page__background {
+    background: white;
+}
+
+input.pin {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+    text-security: disc;
+
+}
+
+ons-progress-bar#busyLoader {
+    position: fixed;
+    bottom: 0px;
+    background: white;
+    width: 100%;
+    z-index: 1000;
+}
+
+.alert-dialog-title {
+    font-weight: 700;
+}
+.text-bold {
+    font-family: inherit !important;
+    font-weight: 700!important;
+}
+.toolbar{
+    background:  #1e2976!important;
+    color: white;
+}
+.toolbar__title{
+    color: white!important;
+}
+.back-button__icon{
+    fill: white;
+}
+.page__content{
+    overflow-y: scroll;
+
+}
+
+.btn-transparent {
+    background: transparent!important;
+}
+.progress-bar--indeterminate:after, .progress-bar--indeterminate:before {
+    background: #4545d2!important;
+}
+
+.toolbar__left{
+    display: inherit;
+    align-items: center;
+}

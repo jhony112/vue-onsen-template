@@ -1,0 +1,373 @@
+.shape {
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.random-shape:after {
+    font-family: FontAwesome;
+    content: "\f005";
+}
+
+.stop-shape {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.discussion {
+    max-width: 100%;
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+    /* padding-bottom: 100px; */
+    height: 90%;
+    max-height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+
+}
+
+.discussion > .bubble {
+    border-radius: 1em;
+    padding: 0.75em 0.85em;
+    margin: 0.0625em;
+    max-width: 50%;
+}
+
+.discussion > .bubble.sender {
+    align-self: flex-start;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.discussion > .bubble.recipient {
+    align-self: flex-end;
+    background-color: #363535;
+}
+
+.discussion > .bubble.sender.first {
+    border-bottom-left-radius: 0.1em;
+}
+
+.discussion > .bubble.sender.last {
+    border-top-left-radius: 0.1em;
+}
+
+.discussion > .bubble.sender.middle {
+    border-bottom-left-radius: 0.1em;
+    border-top-left-radius: 0.1em;
+}
+
+.discussion > .bubble.recipient.first {
+    border-bottom-right-radius: 0.1em;
+}
+
+.discussion > .bubble.recipient.last {
+    border-top-right-radius: 0.1em;
+}
+
+.discussion > .bubble.recipient.middle {
+    border-bottom-right-radius: 0.1em;
+    border-top-right-radius: 0.1em;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+
+}
+
+.btn:active, .btn:focus {
+    opacity: .6;
+}
+
+.btn-outline {
+    border: 2px solid white;
+    background: transparent !important;
+
+}
+
+.btn {
+    box-sizing: border-box;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    padding: 18px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: white;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-primary {
+    color: white !important;
+    border: 2px solid #3247E6;
+    background: #3247E6;
+}
+
+.btn-white {
+    color: #000000 !important;
+    background: #ffffff;
+}
+
+.btn-lighter {
+    color: white !important;
+    border: 2px solid #0fbf4d;
+    background: #11bf4e;
+    min-width: 150px;
+    opacity: 1;
+    padding: 12px 15px;
+    display: inline-block;
+}
+
+.btn-otl-primary {
+    color: #3247E6 !important;
+    border: 2px solid #3247E6;
+
+}
+
+input {
+    font-family: inherit !important;
+    /*font-family: AppFont !important;*/
+}
+
+.input-icon-wrap {
+    background: #eaeaea;
+    display: flex;
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 18px 25px;
+    color: grey;
+    flex-direction: row;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-group .label {
+    margin-bottom: 2px;
+    font-size: 1em;
+}
+
+.form-group .floating-label {
+    position: absolute;
+    top: -10px;
+    padding: 3px 5px;
+    left: 10px;
+    background: white;
+}
+
+.input-icon {
+    /*background: #ddd;*/
+}
+
+.input-icon-wrap.floating {
+    background: transparent;
+    border: 1px solid #a8a8a8;
+}
+
+.floating .input-icon, .input-with-icon {
+    background: inherit !important;
+}
+
+.input-with-icon {
+    border: none;
+    flex: 1;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.input-icon, .input-with-icon {
+    font-size: 1.1em;
+
+    background: #eaeaea;
+    border-radius: 5px;
+}
+
+#busyMessage {
+    font-size: 1.2em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    /* font-size: .9em; */
+    font-weight: 800;
+
+    bottom: 5em;
+}
+
+#busyLoader .progress-bar.progress-bar--indeterminate {
+    height: 5px;
+}
+
+.progress-bar__primary, .progress-bar__secondary {
+    background: #0D0D21;
+}
+
+.progress-bar--indeterminate:after, .progress-bar--indeterminate:before {
+    background: #0D0D21;
+}
+
+.text-primary {
+    color: #0D0D21;
+}
+
+.bg-green {
+    color: #20eea4 !important;
+}
+
+.btn-sm {
+    padding: 12px 15px;
+}
+
+.btn-xs {
+    padding: 8px 12px;
+    font-size: .9em;
+}
+
+.disabled {
+    opacity: .8;
+    background: grey;
+    border: 1px solid grey;
+    pointer-events: none;
+}
+
+.color-primary {
+
+    color: #6072ff !important
+}
+
+.color-secondary {
+    color: #0dbe17;
+}
+
+.btn-default {
+    background: white;
+    color: #3247E6;
+}
+
+.formArea {
+    position: relative;
+    padding: 10px 25px 10px 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.naira {
+    font-size: .6em;
+    font-weight: bolder;
+    padding: 5px 4px;
+}
+
+.tail {
+    font-size: .5em;
+    font-weight: light;
+}
+
+.section {
+    position: relative;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.section.no-pad {
+    box-sizing: border-box;
+    padding: unset;
+}
+
+.btn-grey {
+    background: #efefef;
+    color: #3247E6;
+}
+
+.card__full {
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    padding: 20px 25px;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.menu-button .caret {
+    position: absolute;
+    right: 9px;
+    top: 30%;
+}
+
+.menu-button .text {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.menu-button .icn {
+    background: #efecec;
+    width: 3em;
+    height: 3em;
+    line-height: 4.2em;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.menu-button .icn.full {
+    background: transparent;
+}
+
+.icn i {
+    font-size: 2.5em;
+}
+
+.input-icon-wrap.no-borders {
+    color: white;
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid white;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    width: 80%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+

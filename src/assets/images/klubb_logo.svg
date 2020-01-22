@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Logo Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M51,0 C79.1665222,-5.1741062e-15 102,22.8334778 102,51 C102,79.1665222 79.1665222,102 51,102 L51,102 C22.8334778,102 3.44940413e-15,79.1665222 0,51 C-3.44940413e-15,22.8334778 22.8334778,5.1741062e-15 51,0 Z" id="path-1"></path>
+        <filter x="-44.1%" y="-44.1%" width="188.2%" height="188.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.198   0 0 0 0 0.2799   0 0 0 0 0.9  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Copy-3" transform="translate(-108.000000, -74.000000)">
+            <g id="Logo-Copy" transform="translate(137.000000, 103.000000)">
+                <g id="Group-3">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#3247E6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="noun_Boomerang_49703" transform="translate(50.592727, 58.543402) rotate(-41.000000) translate(-50.592727, -58.543402) translate(30.092727, 38.543402)" fill="#FFFFFF">
+                        <g id="Group">
+                            <path d="M40.7846176,19.3088478 C40.9123273,12.3035462 40.2759961,5.43824592 37.5745817,3.13890897 C31.6662353,-1.89023641 5.88040983,0.750163043 2.93333165,1.02754891 C0.0638548387,1.29839266 -1.74846965,4.19000951 3.74615054,4.70683696 C9.35783793,5.23456793 21.2259692,6.19233424 27.2859708,9.0808981 C32.3074443,11.1944389 36.5679811,14.4467446 40.7846176,19.3088478 Z" id="Path"></path>
+                            <path d="M31.9070213,14.1122242 C34.4066722,20.2605082 34.8860269,31.127841 35.317047,36.310072 C35.7724562,41.7827731 38.9926912,40.0351549 39.2884633,37.3428546 C39.4418922,35.9463302 40.3336428,29.5799755 40.6710979,22.6509986 C37.7648159,19.0039851 34.9436736,16.2253288 31.9070213,14.1122242 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
