@@ -71,7 +71,7 @@
             }
         },
         mounted: function () {
-            // alert('i am mounted')
+          //  alert(this.isPhoneX())
         },
         page: "Camera",
         show: function () {
