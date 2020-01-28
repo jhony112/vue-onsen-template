@@ -13,19 +13,12 @@
         </ons-toolbar>
         <div class="page__background" style="background: black"></div>
         <div class="content">
-            <div class="welcome-area " v-resize:debounce.50="onResize">
+            <div class="welcome-area " >
                 <div class="padded">
                     <user-photo src="https://placehold.it/200x200" size="small"></user-photo>
                     <div class="text-xxl text-bold">Hey Femi how can i help you today</div>
                 </div>
 
-                <!--<div class="discussion">-->
-                    <!--<chat-bubble :mine="true" msg="popp gvf vgvgvg vg lol vbf gccv hgv hbhv hhv hjbhbh hbhb"></chat-bubble>-->
-                    <!--<chat-bubble :mine="false" msg="popp gvf vgvgvg vg lol vbf gccv hgv hbhv hhv hjbhbh hbhb"></chat-bubble>-->
-                    <!--<chat-bubble :mine="true" msg="popp gvf vgvgvg vg lol vbf gccv hgv hbhv hhv hjbhbh hbhb"></chat-bubble>-->
-                    <!--<chat-bubble :mine="false" msg="popp gvf vgvgvg vg lol vbf gccv hgv hbhv hhv hjbhbh hbhb"></chat-bubble>  <chat-bubble :mine="true" msg="popp gvf vgvgvg vg lol vbf gccv hgv hbhv hhv hjbhbh hbhb"></chat-bubble>-->
-                    <!--<chat-bubble :mine="false" msg="last guy says here"></chat-bubble>-->
-                <!--</div>-->
 
             </div>
 
