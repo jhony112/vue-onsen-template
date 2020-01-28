@@ -1,6 +1,6 @@
 <template>
     <ons-page id="Camera">
-        <ons-toolbar :style=app_theme modifier="no-shadow">
+        <ons-toolbar modifier="no-shadow">
             <div class="left">
                 <ons-icon size="30px" icon="md-apps"></ons-icon>
             </div>

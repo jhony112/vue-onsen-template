@@ -1,6 +1,6 @@
 <template>
   <v-ons-page>
-    <custom-toolbar v-bind="toolbarInfo"></custom-toolbar>
+
 
     <v-ons-carousel fullscreen swipeable auto-scroll overscrollable
       :index.sync="carouselIndex"

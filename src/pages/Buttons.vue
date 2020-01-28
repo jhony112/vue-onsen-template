@@ -1,6 +1,6 @@
 <template>
   <v-ons-page>
-    <custom-toolbar v-bind="toolbarInfo"></custom-toolbar>
+
 
     <section style="margin: 16px">
       <v-ons-segment style="width: 260px">
