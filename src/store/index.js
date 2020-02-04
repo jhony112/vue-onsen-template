@@ -5,7 +5,7 @@ import Navigator from './modules/navigator';
 import Splitter from './modules/splitter';
 import Tabbar from './modules/tabbar';
 import createPersistedState from 'vuex-persistedstate'
-import PouchDB from 'pouchdb';
+
 
 Vue.use(Vuex);
 

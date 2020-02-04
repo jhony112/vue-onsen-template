@@ -88,7 +88,7 @@ new Vue({
           // StatusBar.backgroundColorByHexString("#000000");
         }
 
-        app.changeStatusBarColorTo("#000");
+
 
       }, false);
 
