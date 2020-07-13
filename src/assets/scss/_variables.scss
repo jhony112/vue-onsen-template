@@ -1,0 +1,32 @@
+// COLORS
+$color-primary: #3247E6;
+$color-success: #2ba93e;
+$color-light-primary: rgba(50, 71, 230, 0.6);
+$color-lighter-primary: rgba(50, 71, 230, 0.33);
+$color-grey-light-1: #f1f0f0;
+$color-grey-light-2: #eee;
+$color-white: #fff;
+$color-black: #000;
+// FONT
+$font-size-small: 1.4rem;
+$defualt-font-size: 1.6rem;
+$font-size-medium: 1.9rem;
+$font-size-large: 2.2rem;
+$font-size-xlarge: 4.2rem;
+// BREAKPOINTS
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+//RADIUS
+$border-radius-primary: 20px;
+$border-radius-rounded: 100%;
+.color-primary{
+  color: $color-primary!important;
+}
+.btn-success{
+  background: $color-success;
+  color: white;
+  border: 1px solid $color-success;
+}

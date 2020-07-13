@@ -1,10 +1,15 @@
 module.exports = {
-    productionSourceMap: false,
-    devServer: {
-        proxy: 'https://harlem-girl.now.sh/',
-    },
-    publicPath: '',
-    pluginOptions: {
-        cordovaPath: 'src-cordova'
+  productionSourceMap: false,
+  publicPath: '',
+  pluginOptions: {
+    cordovaPath: 'src-cordova'
+  },
+  css: {
+    loaderOptions: {
+      sass: {
+        prependData: `@import "@/assets/scss/_variables.scss";`
+      }
     }
+  }
 }
+
