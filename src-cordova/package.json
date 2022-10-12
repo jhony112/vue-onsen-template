@@ -10,8 +10,8 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
-        "cordova-android": "^7.1.4",
-        "cordova-browser": "^5.0.4",
+        "cordova-android": "^11.0.0",
+        "cordova-browser": "^6.0.0",
         "cordova-ios": "^5.1.1",
         "cordova-plugin-contacts": "3.0.1",
         "cordova-plugin-contacts-phonenumbers": "0.0.12",
